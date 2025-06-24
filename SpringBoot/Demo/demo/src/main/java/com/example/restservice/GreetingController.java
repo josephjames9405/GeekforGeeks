@@ -9,5 +9,6 @@ public class GreetingController{
 	@GetMapping("/greeting")
 	public String greeting() {
 		return "Hello, World";
+		//testing
 	}
 }
